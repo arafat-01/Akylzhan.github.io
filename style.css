@@ -1,0 +1,67 @@
+body {
+  margin: 0;
+  font-family: "Osaka";
+  background-color: rgb(240,240,240); 
+  color: #4C5454;
+}
+
+#main-body {
+  background-color: white;
+  margin: 5% 15%;
+  width: 70%;
+  height: 150%;
+}
+
+#main-content {
+  padding: 10px 20px 20px 20px;
+}
+#main-header {
+  position: relative;
+  text-align: center;
+}
+.header {
+  font-family: "Tsukushi A Round Gothic";
+	font-size: 32px;
+  display: inline-block;  
+  animation: shoot 1400ms linear infinite;
+}
+.header:nth-child(2){
+  animation-delay: 200ms;
+}
+.header:nth-child(3){
+  animation-delay: 400ms;
+}
+.header:nth-child(4){
+  animation-delay: 600ms;
+}
+.header:nth-child(5){
+  animation-delay: 800ms;
+}
+.header:nth-child(6){
+  animation-delay: 1000ms;
+}
+.header:nth-child(7){
+  animation-delay: 1200ms;
+}
+@keyframes shoot{
+  0%,100%{
+    transform: translate(0px,0px);
+  }
+  50%{
+    transform: translate(0px,2px);
+  }
+}
+.header:hover{
+  animation: none;
+}
+h2 {
+  margin-top: 50px;
+  font-size: 18px;
+}
+#about-content {
+  margin-left: 10px;
+}
+
+#contacts-content {
+  margin-left: 10px;
+}
