@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-family: "Osaka";
+  font-family: "Arial";
   background-color: rgb(240,240,240); 
   color: #4C5454;
 }
@@ -18,7 +18,7 @@ body {
 }
 
 h1 {
-  font-family: "Tsukushi A Round Gothic";
+	font-family: "Menlo";
 	font-size: 32px;
 }
 
