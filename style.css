@@ -57,7 +57,8 @@ a {
 		padding-left: 20px;
 	}
 	#content-container {
-  		width: 30%;
+		margin-left: 0%;
+  		width: 35%;
   	}
   	#photo-right {
   		width: 150px;
