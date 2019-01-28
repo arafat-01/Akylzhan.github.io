@@ -24,17 +24,9 @@ h1 {
 	font-size: 18px;
 }
 
-.other-labels {
-	margin-top: 20px;
+#contacts-label {
+	margin-top: 40px;
 	font-size: 18px;
-}
-
-#about-content {
-	margin-left: 10px;
-}
-
-#contacts-content {
-	margin-left: 10px;
 }
 
 a {
