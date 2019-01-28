@@ -52,7 +52,7 @@ a {
 		margin-left: 10px;
 	}
 }
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:400px) {
 	#photo-right {
 		width: 100px;
 	}
